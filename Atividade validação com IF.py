@@ -12,7 +12,7 @@ if escolher_verificacao == '1':
     lado1 = int(math.sqrt((x2 - x1)**2 + (y2 - y1)**2 ))
     lado2 = int(math.sqrt((x3 - x1)**2 + (y3 - y1)**2 ))
     lado3 = int(math.sqrt((x3 - x2)**2 + (y3 - y2)**2 ))
-#
+
     if lado1 == lado2 and lado1 == lado3:
         print('É um triângulo Equilátero')
     elif lado1 == lado2 or lado2 == lado3 or lado3 == lado1:

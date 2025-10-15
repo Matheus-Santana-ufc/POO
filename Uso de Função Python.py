@@ -3,7 +3,7 @@ global estoque_bebida
 
 estoque_bebida = {"refrigerante": 10, "suco de uva": 8, "achocolatado": 7, "leite": 5, "café": 5, "suco de laranja": 5, "suco de morango": 5, "suco de acerola": 5, "suco de melancia": 5, "suco de maça": 5}
 estoque_comida = {"sanduiche": 5, "bolo": 6, "cafe": 15, "brigadeiro": 5, "uva": 5, "banana": 5, "strogonoff de peixe": 5, "strogonoff de carne": 5, "strogonoff de frango": 5, "strogonoff de camarão": 5,}
-#
+
 def mostrar_estoque():
   opcao = input("Deseja mostrar o estoque de comida ou bebida? ")
   if opcao == "comida":
