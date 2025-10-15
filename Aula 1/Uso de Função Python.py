@@ -11,7 +11,7 @@ def mostrar_estoque():
   elif opcao == "bebida":
     print(f"Estoque de bebida: {estoque_bebida}")
   menu()
-
+#
 def adicionar_produto():
   produto = input("Digite o nome do produto que deseja adicionar: ")
   quantidade = int(input("Digite a quantidade a ser adicionada: "))
