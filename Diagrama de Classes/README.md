@@ -1,0 +1,3 @@
+O diagrama UML consiste em 2 classes, Banco e Conta, Banco contém 2 atributos: Nome que é uma string representando o nome do banco e Contas que é uma lista contendo todas as contas do banco. Conta possui 4 atributos ID que é uma string contendo o número individual que cada conta possui, saldo que é a quantidade de dinheiro armazenada na conta, valor que é o número usado para transferências, e titular contendo o Nome do dono da conta.
+
+O código consiste apenas em declarar essas classes e funções de um jeito teórico e simplificado.
